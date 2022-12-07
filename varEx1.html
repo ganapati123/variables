@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var product_sno = 1, 
+            product_name = "POCO C31",
+            product_image = "images/poco-c31.webp",
+            product_price = 8999,  //"8,999"
+            product_features = ` <ul>
+                         <li>4 GB RAM | 64 GB ROM | Expandable Upto 512 GB</li>
+                        <li>16.59 cm (6.53 inch) HD+ Display</li>
+                        <li>13MP + 2MP + 2MP | 5MP Front Camera</li>
+                        <li>5000 mAh Lithium-ion Polymer Battery</li>
+                        <li> MediaTek G35 Processor</li>
+                        </ul>`
+
+            // document.writeln("product sno is: "+product_sno +
+            //        "<br/><br/>product name is: " +product_name +
+            //        "<br/><br/>product image is:<br/> <img src =" + product_image + " />"+ 
+            //        "<br/><br/>product price is: " +product_price+
+            //        "<br/><br/>product_features are: "+product_features)   
+            
+            document.writeln(`
+                          product sno is: ${product_sno}<br/><br/>
+                          product Name is: ${product_name}<br/><br/>
+                          product image is:<br/><img src ="${product_image}"/><br/><br/>
+                          product price is : ${product_price}<br/><br/>
+                          product features are : ${product_features}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
